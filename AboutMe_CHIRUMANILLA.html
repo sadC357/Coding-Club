@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>About Me</title>
+        <style>
+            body{
+                background: linear-gradient(90deg,rgb(150, 219, 208) 10%,rgb(106, 100, 189) 30%, rgb(106, 100, 189) 50%,rgb(106, 100, 189) 70%, rgb(150, 219, 208) 90%);
+                font-family: Luminari, fantasy;
+                justify-content:center;
+                text-align: center;
+                padding: 10px;
+                border: double black;
+            }
+            h1,h3{
+                color:black;
+            }
+            p{
+                color:rgb(29, 51, 107);
+                text-align:center;
+            }
+        </style>
+    </head>
+
+    <script>
+
+        function readMoreAge(){
+            var output;
+            ouput="I have an older brother :("
+            document.getElementById('ageId').innerHTML=ouput;
+        }  
+
+        function readMoreDog(){
+            var output;
+            ouput="I don't have a pet :("
+            document.getElementById('dogId').innerHTML=ouput;
+        }  
+
+        function readMoreBook(){
+            var output;
+            ouput="My favorite book at the moment is The Sun is Also a Star :)"
+            document.getElementById('bookId').innerHTML=ouput;
+        } 
+
+        function readMoreColor(){
+            var output;
+            ouput="I also like navy blue :)"
+            document.getElementById('colorId').innerHTML=ouput;
+        }  
+
+        function readMoreTv(){
+            var output;
+            ouput="I like comedies :)"
+            document.getElementById('tvId').innerHTML=ouput;
+        } 
+
+        function readMoreTravel(){
+            var output;
+            ouput="I have been to Italy :)"
+            document.getElementById('travelId').innerHTML=ouput;
+        } 
+
+    </script>
+
+    <body>
+
+        <h1>ABOUT ME</h1>
+        <h3>My name is Sadhika Chirumanilla.</h1>
+        <img src="Images/facePicture.jpg" height=300>
+        <br><br>
+        <input type="button" value="Read More!" onClick="readMoreAge()">     
+        <div  id="ageId"></div>
+        <p>I'm 14 years old.</p>    
+        <img src="Images/malteseDog.jpg" height=300>
+        <br><br>
+        <input type="button" value="Read More!" onClick="readMoreDog()">
+        <div id="dogId" ></div>
+        <p>I'm a dog person.</p>
+        <img src="Images/bookStack.jpg" height=300>
+        <br><br>
+        <input type="button" value="Read More!" onClick="readMoreBook()">
+        <div id="bookId"></div>
+        <p>I like to read.</p>
+        <img src="Images/purpleImage.jpeg" height=300>
+        <br><br>
+        <input type="button" value="Read More!" onClick="readMoreColor()">
+        <div id="colorId"></div>
+        <p>My favorite color is purple.</p>
+        <img src="Images/netflixImage.jpg" height=300>
+        <br><br>
+        <input type="button" value="Read More!" onClick="readMoreTv()">
+        <div id="tvId"></div>
+        <p>I like to watch Netflix.</p>
+        <br><br>
+        <img src="Images/italy.jpg" height=300>
+        <br><br>
+        <input type="button" value="Read More!" onClick="readMoreTravel()">
+        <div id="travelId"></div>
+        <p>My family and I travel a lot.</p>
+        <br><br>
+    
+    </body>
+
+</html>
